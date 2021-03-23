@@ -10,5 +10,8 @@ If the number does not have 3, 5, or 7 as a factor, just pass the number's digit
  ***********************************************/
 function raindrops(n) {
   // CODE HERE
+
 }
-module.exports = { raindrops };
+module.exports = {
+  raindrops
+};

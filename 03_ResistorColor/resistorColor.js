@@ -31,7 +31,12 @@ const COLORS = [
   "grey",
   "white",
 ];
+
 function colorCode(num) {
   // CODE HERE
+  return COLORS.indexOf(num)
 }
-module.exports = { colorCode, COLORS };
+module.exports = {
+  colorCode,
+  COLORS
+};
