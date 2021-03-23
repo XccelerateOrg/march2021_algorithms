@@ -7,5 +7,6 @@ A gigasecond is 10^9 (1,000,000,000) seconds.
  ***********************************************/
 function gigasecond(startDate) {
   // CODE HERE
+
 }
 module.exports = { gigasecond };

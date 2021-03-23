@@ -19,6 +19,7 @@ White: 9
 * to look up the numerical value associated with a particular color band to list the different band colors
 Mnemonics map the colors to the numbers, that, when stored as an array, happen to map to their index in the array: Better Be Right Or Your Great Big Values Go Wrong.
  ***********************************************/
+
 const COLORS = [
   "black",
   "brown",
@@ -31,7 +32,9 @@ const COLORS = [
   "grey",
   "white",
 ];
+ 
 function colorCode(num) {
-  // CODE HERE
+  return COLORS.indexOf(num);
 }
+
 module.exports = { colorCode, COLORS };
