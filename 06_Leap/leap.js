@@ -14,5 +14,8 @@ For example, 1997 is not a leap year, but 1996 is. 1900 is not a leap year, but 
  ***********************************************/
 function leap(year) {
   // CODE HERE
+
+  return ((year % 400 == 0) || ( year % 4 == 0 ) && ( year % 100 != 0))
+
 }
 module.exports = { leap };

@@ -8,6 +8,6 @@
  * Running the function on [-1, 2, -3] would return -2.
  ***********************************************/
 function sumArray(arr) {
-  // CODE HERE
+  arr.reduce(arr)
 }
 module.exports = sumArray;
