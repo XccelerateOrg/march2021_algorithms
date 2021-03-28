@@ -35,7 +35,9 @@ console.log(a) prints { fullName: 'Octavia Estelle Butler', yearBorn: 1947 }
 // key is yearBorn
  ***********************************************/
 function appendObject(obj, value) {
-  // CODE HERE
+  let obj = { 
+    fullName: 'Octavia Estelle Butler',
+    yearBorn: ${value} };
 }
 
 module.exports = {

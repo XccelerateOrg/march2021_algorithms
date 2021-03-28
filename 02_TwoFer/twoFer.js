@@ -8,7 +8,6 @@
  *  One for you, one for me.
  ***********************************************/
 
-<<<<<<< Updated upstream
 function twoFer(name) {
   // CODE HERE
   if (name === null || name === undefined) {
@@ -16,14 +15,6 @@ function twoFer(name) {
   } 
   return `One for ${name}, one for me.`
 
-=======
-function twoFer(a) {
-  if ( a == null || a == undefined ){
-    return "One for you, one for me."
-  } else {
-    return `One for ${a}, one for me.`
-  }
->>>>>>> Stashed changes
 }
 module.exports = twoFer;
 

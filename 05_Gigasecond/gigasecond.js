@@ -5,9 +5,10 @@
 
 A gigasecond is 10^9 (1,000,000,000) seconds.
  ***********************************************/
-export const gigasecond = (startDate) => {
-  var startTime = startDate.getTime();
-  var endDate = new Date(startTime + 1000000000000);
-  return endDate;
-};
+const gigasecond = (startDate) => {
+  let startTime = startDate.getTime();
+	let endDate = new Date(startTime + 1000000000000);
+	return endDate;
+}
+
 module.exports = { gigasecond };
